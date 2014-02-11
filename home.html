@@ -11,7 +11,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="tab" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle Navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -26,8 +26,8 @@
                         <li class="home active" tabindex="0">
                             <a href="#home" data-toggle="tab">Home</a>
                         </li>
-                        <li class="about-me" tabindex="1">
-                            <a href="#aboutMe" data-toggle="tab">About me</a>
+                        <li class="about" tabindex="1">
+                            <a href="#about" data-toggle="tab">About</a>
                         </li>
                         <li class="resume" tabindex="2">
                             <a href="#resume" data-toggle="tab">Resume</a>
@@ -45,26 +45,25 @@
             <!-- Home tab page -->
             <div class="tab-pane active" id="home">
                 <div class="container">
-                    <br><br><br><br>
                     <div class="row">
-                        <div class="col-md-4 col-md-offset-2 thumb" tabindex="1">
-                            <a href="#aboutMe" class="thumbnail" data-toggle="tab">
+                        <div class="thumb col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2" tabindex="1" style="width: 310px;">
+                            <a href="#about" class="thumbnail" data-toggle="tab">
                                 <img src="Home1.jpg" title="About me">
                             </a>
                         </div>
-                        <div class="col-md-4 thumb" tabindex="2">
+                        <div class="thumb col-sm-4 col-md-4" tabindex="2" style="width: 310px;">
                             <a href="#resume" class="thumbnail" data-toggle="tab">
                                 <img src="Home2.jpg" title="Resume">
                             </a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 col-md-offset-2 thumb" tabindex="3">
+                        <div class="thumb col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2" tabindex="3" style="width: 310px;">
                             <a href="#music" class="thumbnail" data-toggle="tab">
                                 <img src="home3.png" title="Music">
                             </a>
                         </div>
-                        <div class="col-md-4 thumb" tabindex="-1">
+                        <div class="thumb col-sm-4 col-md-4" tabindex="-1" style="width: 310px;">
                             <a href="https://www.facebook.com/roggle" target="_blank" class="thumbnail">
                                 <img src="Home4.jpg" title="Facebook">
                             </a>
@@ -74,46 +73,176 @@
             </div>
 
             <!-- About me tab page -->
-            <div class="tab-pane" id="aboutMe">
+            <div class="tab-pane" id="about">
                 <div class="container">
-                    <br><br>
-                    <h1>About me!</h1>
+                    <div class="page-header">
+                        <h1><small>Programmer, Musician</small></h1>
+                    </div>
 
+                    <p>
+                        Roger Walton Harris III was born in Baton Rouge, Louisiana on December 9th, 1989.
+                        He only spent about two years in Louisiana before moving to San Antonio, Texas, where
+                        he would spend a majority of his childhood. He enjoyed being outside, playing sports,
+                        riding his bike, or exploring with his friends. He also enjoyed playing board games, checkers and chess with his dad, playing video games, or just messing
+                        around on the computer.
+                    </p>
+                    <p>
+                        In 2004 he moved to Daphne, Alabama, where he attended Daphne high school. He graduated in 2008, and
+                        decided to attend Auburn University. Not knowing exactly what he wanted to do with his life, he switched
+                        majors from business to journalism to psychology and then to graphic design, which he stayed in for a year.
+                        But even graphic design wasn't really for him, so he pursued a degree in Computer Science. Never having
+                        programmed <br>a single line of code before, he instantly took to it and loved it.
+                    </p>
+                    <p>
+                        Auburn taught him the basics of programming, but he wanted more. In January of 2014, Roger moved to
+                        New York City with his girlfriend, Allison, and their two cats, Pixel and Java. After driving a
+                        14-foot U-haul truck 15 hours with two sedated cats in the front cab in order to beat a blizzard that
+                        was about to hit New York City, Roger settled in and started his internship at Health Guru Media. Here,
+                        he is learning the ins and outs of Web Development.
+                    </p>
+                    <p>
+                        In his free time, Roger enjoys spending time with his girlfriend, watching movies, reading a good book,
+                        and listening to music. He also enjoys playing music. He has been playing the bass guitar since the Spring
+                        of 2005, and has since then picked up guitar and some drums as well. While attending college at Auburn
+                        University, he <br>was in 3 different bands, each very uniquely different from the others.
+                    </p>
+                    <p>
+                        The first band he joined, Blame Sydney!, was a ska/punk rock band whose main purpose was to play
+                        fun music for their friends and have a good time doing it. The second band he was in, Gypsies With Knives,
+                        he joined because they were in dire need of a new bassist. He had known the band members after previously
+                        playing with them in Blame Sydney, so it was an easy fit for him. Gypsies With Knives consisted of an
+                        eclectic mix of classic rock, punk rock, reggae, funk, and blues. Finally, in his last semester of college,
+                        he helped out a friend by playing for his sister's cover band. Entitled the Cheri Blossoms, they were a cover
+                        band that played classic rock, country, alternative rock and pop songs.
+                    </p>
+
+
+                    <!--
                     <div class="row">
-                        <!-- Facebook profile -->
-                        <div class="col-md-6" style="align-content: center;">
-                            <p>
-                                <a href="https://www.facebook.com/roggle" target="_blank">
-                                    <img width="250" src="http://static2.wikia.nocookie.net/__cb20130501121250/logopedia/images/f/fb/Facebook_icon_2013.svg"/>
-                                </a>
-                            </p>
-                        </div>
-
-                        <!-- LinkedIn profile -->
-                        <div class="col-md-6" style="align-content: center;">
+                        <div class="col-sm-3 col-md-3" style="align-content: center;">
                             <p>
                                 <a href="http://www.linkedin.com/pub/roger-harris/7a/842/891" target="_blank">
                                     <img width="250" src="http://westron.com/wp-content/uploads/2011/11/LinkedIn_IN_Icon_5inCMYK1.jpg"/>
                                 </a>
                             </p>
                         </div>
+
+                        <div class="col-sm-3 col-md-3" style="align-content: center;">
+                            <p>
+                                <a href="https://www.facebook.com/roggle" target="_blank">
+                                    <img width="250" src="http://static2.wikia.nocookie.net/__cb20130501121250/logopedia/images/f/fb/Facebook_icon_2013.svg"/>
+                                </a>
+                            </p>
+                        </div>
                     </div>
+                    -->
                 </div>
             </div>
 
             <!-- Resume tab page -->
             <div class="tab-pane" id="resume">
                 <div class="container">
-                    <br><br>
-                    <h1>Resume!</h1>
+                    <div class="page-header">
+                        <h1>Resume</h1>
+                    </div>
                 </div>
             </div>
 
             <!-- Music tab page -->
             <div class="tab-pane" id="music">
                 <div class="container">
+                    <div class="page-header">
+                        <h1>Music <small>Groups</small></h1>
+                    </div>
+                    <div>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <h3 class="list-group-item-heading">
+                                    Daphne High School marching band<br>
+                                    <small>Summer 2006 - Spring 2008</small>
+                                </h3>
+                                <p class="list-group-item-text">
+                                    Before joining the Daphne high school marching band in the summer of 2006, Roger had
+                                    no prior experience with music theory of any kind. During the pre-semester band camp,
+                                    he was taught the basics of keys, scales, and reading musical clef in only a few days.
+                                    The three songs he had to learn for the marching band's show were more complicated
+                                    than anything he had previously learned, being mostly jazz based. He practiced day
+                                    and night to perfect the bass lines, since this was his first time playing with a
+                                    band of any kind.
+                                    <br><br>
+                                    The first year he was with the Marching band, the show consisted of three varied songs:
+                                    "", "Stairway to Heaven", and "". His parts consisted of mostly jazzy and rock-oriented
+                                    bass lines, with a walking bass line in "". The guitar section, which consisted of Roger
+                                    on bass and his friends Ben White and Mark Parrish on guitar, was featured prominently
+                                    in Stairway to Heaven during the guitar solo. The second year's show was more thematic,
+                                    based around three songs by the jazz guitarist Pat Metheny: "", "", "". Since Roger was
+                                    the only guitarist this year, and he considered himself more experienced than the year
+                                    before, his parts were more prominent.
+                                    <br><br>
+                                    During his stint in the Daphne marching band, they competed in regional competitions
+                                    against other marching bands. Titled "The Sound of the Eastern Shore", they were known
+                                    for their excellence in all categories and frequently took home awards for best
+                                    performance, best drum major, best music, and more. The marching band also took part
+                                    in the annual parades during Mardi Gras. In a couple such parades, Roger marched along
+                                    the with the band and played bass drum.
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="list-group-item-heading">
+                                    Daphne High School Winter Percussion Ensemble<br>
+                                    <small>Spring 2007 - Spring 2008</small>
+                                </h3>
+                                <p class="list-group-item-text">
+                                    Joining the marching band gave Roger the opportunity to be other musical groups that
+                                    his high school offered.
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="list-group-item-heading">
+                                    Blame Sydney! <br>
+                                    <small>Summer 2009 - Fall 2013</small>
+                                </h3>
+                                <p class="list-group-item-text">
+                                    Stuff stuff stuff stuff
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="list-group-item-heading">
+                                    Summertrees <br>
+                                    <small>Spring - Summer 2011</small>
+                                </h3>
+                                <p class="list-group-item-text">
+
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="list-group-item-heading">
+                                    Gypsies With Knives <br>
+                                    <small>Summer 2012 - Spring 2013</small>
+                                </h3>
+                                <p class="list-group-item-text">
+                                    Stuff stuff stuff stuff
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="list-group-item-heading">
+                                    Cheri and the Cheri Blossoms <br>
+                                    <small>Fall 2013</small>
+                                </h3>
+                                <p class="list-group-item-text">
+
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--
                     <br><br>
-                    <h1>Music!</h1>
+
+                    <div class="page-header">
+                        <h1>Music <small>Timeline</small></h1>
+                    </div>
+                    -->
                 </div>
             </div>
 
