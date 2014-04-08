@@ -1,4 +1,4 @@
-Homepage
+Practice-Homepage
 ========
 
-Code for my personal homepage, using bootstrap
+My first draft for a homepage I created when learning javascript, html/css, and different frameworks. I chose Bootstrap and went for a generally safe design. Still incomplete.
