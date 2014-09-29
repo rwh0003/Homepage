@@ -1,37 +1,16 @@
-/**
- * Created by User on 1/23/14.
- */
+$('.navbar-toggle').click(function() {
+    _this = $('.navbar-toggle');
+    if(_this.hasClass('collapsed')) {
+        $('.tab-content').css('margin-top', 207);
+        console.log('DOWN');
+    } else {
+        $('.tab-content').css('margin-top', 30);
+        console.log('UP');
+    }
+});
 
-$('.thumb').click(function () {
-    if (this.tabIndex > 0)
-        var curTab = $('.nav .active'),
-            newTab,
-            renameClass;
-
-        switch(this.tabIndex) {
-            case 1:
-                //go to aboutMe
-                newTab = $('.about-me');
-                renameClass = ((curTab.attr("class")).split(" "))[0];
-                curTab.attr("class", renameClass);
-                newTab.attr("class", "about-me active");
-                break;
-            case 2:
-                //go to resume
-                newTab = $('.resume');
-                renameClass = ((curTab.attr("class")).split(" "))[0];
-                curTab.attr("class", renameClass);
-                newTab.attr("class", "resume active");
-                break;
-            case 3:
-                //go to music
-                newTab = $('.music');
-                renameClass = ((curTab.attr("class")).split(" "))[0];
-                curTab.attr("class", renameClass);
-                newTab.attr("class", "music active");
-                break;
-            default:
-                break;
-        }
-
+$(document).ready(function(){
+    $('.tab-content').fadeIn(3500);
+    $('nav').css('display', 'none');
+    $('nav').delay('4250').fadeIn(1500);
 });

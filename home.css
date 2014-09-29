@@ -6,6 +6,25 @@ body {
 h1 {
     font-family: Rockwell;
     color: #FF9900;
-    text-align: center;
 }
 
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tab-content {
+	display: none;
+	margin-top: 30px;
+}
+
+.home-row {
+	text-align: center;
+}
+
+#profile-pic {
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin: 75px auto 0;
+}

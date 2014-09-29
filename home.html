@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Roger Harris</title>
+        <link rel="stylesheet" href="home.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
 
@@ -11,7 +12,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle Navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -45,29 +46,11 @@
             <!-- Home tab page -->
             <div class="tab-pane active" id="home">
                 <div class="container">
-                    <div class="row">
-                        <div class="thumb col-sm-4 col-sm-offset-1 col-md-4" tabindex="1" style="width: 310px;">
-                            <a href="#about" class="thumbnail" data-toggle="tab">
-                                <img src="Home1.jpg" title="About me">
-                            </a>
-                        </div>
-                        <div class="thumb col-sm-4 col-md-4" tabindex="2" style="width: 310px;">
-                            <a href="#resume" class="thumbnail" data-toggle="tab">
-                                <img src="Home2.jpg" title="Resume">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="thumb col-sm-4 col-sm-offset-1 col-md-4" tabindex="3" style="width: 310px;">
-                            <a href="#music" class="thumbnail" data-toggle="tab">
-                                <img src="home3.png" title="Music">
-                            </a>
-                        </div>
-                        <div class="thumb col-sm-4 col-md-4" tabindex="-1" style="width: 310px;">
-                            <a href="https://www.facebook.com/roggle" target="_blank" class="thumbnail">
-                                <img src="Home4.jpg" title="Facebook">
-                            </a>
-                        </div>
+                    <div class="home-row row">
+                        <img id="profile-pic" src="profilepic.jpg">
+                        <a href="https://www.facebook.com/roggle">Facebook</a><br>
+                        <a href="https://www.linkedin.com/pub/roger-harris/7a/842/891">LinkedIn</a><br>
+                        <a href="https://github.com/rwh0003">Github</a><br>
                     </div>
                 </div>
             </div>
@@ -97,18 +80,18 @@
                         Auburn taught him the basics of programming, but he wanted more. In January of 2014, Roger moved to
                         New York City with his girlfriend, Allison, and their two cats, Pixel and Java. After driving a
                         14-foot U-haul truck 15 hours with two sedated cats in the front cab in order to beat a blizzard that
-                        was about to hit New York City, Roger settled in and started his internship at Health Guru Media. Here,
-                        he is learning the ins and outs of Web Development.
+                        was about to hit New York City, Roger settled in and started his internship at Health Guru Media. Here, he learned the ins and outs of Web Development. After his internship (and a merger with Kitara
+                        Media), Roger was brought on as a full time junior developer to further develop his skills.
                     </p>
                     <p>
                         In his free time, Roger enjoys spending time with his girlfriend, watching movies, reading a good book,
                         and listening to music. He also enjoys playing music. He has been playing the bass guitar since the Spring
                         of 2005, and has since then picked up guitar and some drums as well. While attending college at Auburn
-                        University, he <br>was in 3 different bands, each very uniquely different from the others.
+                        University, he <br>was in 4 different bands, each very uniquely different from the others.
                     </p>
                     <p>
                         The first band he joined, Blame Sydney!, was a ska/punk rock band whose main purpose was to play
-                        fun music for their friends and have a good time doing it. The second band he was in, Gypsies With Knives,
+                        fun music for their friends and have a good time doing it. For a brief period in time, he also joined the band SummerTrees with his friend Richard from Blame Sydney. He played lead guitar for the few months they were together. After they went their seperate ways he focused mainly on Blame Sydney. The second band he was in, Gypsies With Knives,
                         he joined because they were in dire need of a new bassist. He had known the band members after previously
                         playing with them in Blame Sydney, so it was an easy fit for him. Gypsies With Knives consisted of an
                         eclectic mix of classic rock, punk rock, reggae, funk, and blues. Finally, in his last semester of college,
@@ -248,7 +231,7 @@
 
         </div>
 
-        <script src="jQ.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="home.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
