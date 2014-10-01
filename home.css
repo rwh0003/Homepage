@@ -27,4 +27,13 @@ h1 {
 	width: 200px;
 	display: block;
 	margin: 75px auto 0;
+	border: 1px solid black;
+}
+
+.home-links {
+	margin-top: 20px;
+}
+
+.home-links a:hover {
+	text-decoration: none;
 }

@@ -9,8 +9,13 @@ $('.navbar-toggle').click(function() {
     }
 });
 
+$('.nav li').click(function() {
+    $('.tab-content').hide();
+    $('.tab-content').fadeIn();
+});
+
 $(document).ready(function(){
     $('.tab-content').fadeIn(3500);
     $('nav').css('display', 'none');
-    $('nav').delay('4250').fadeIn(1500);
+    $('nav').delay('3000').fadeIn(1500);
 });
